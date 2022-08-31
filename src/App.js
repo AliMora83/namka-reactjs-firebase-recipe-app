@@ -7,6 +7,8 @@ import {
   addDoc,
   deleteDoc
 } from "firebase/firestore"
+import React from 'react';
+
 
 function App() {
   const [recipes, setRecipes] = useState([])
